@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    color: #ef3c54;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.navbar i {
+    margin-right: 10px;
+    font-size: 2em;
+}
+
+.navbar span {
+    font-size: 1.3em;
+}
+
+.hero {
+    max-width: 400px;
+    padding: 30px;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.photo-grid {
+    width: 70vw;
+}
+
+
+.section {
+    display: flex;
+    padding: 25px;
+    overflow-x: scroll;
+}
+
+.card {
+    flex: 0 0 170px;
+    margin-right: 20px;
+    position: relative;
+    width: 150px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 0 0 10px 0;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .sold-out {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background:rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: none;
+    padding: 3px 7px;
+    border-radius: 3px;
+    font-size: 0.7em;
+}
+
+.card .star {
+    display: flex;
+    align-items: center;
+    font-size: 0.7em;
+}
+
+.card .star .fa {
+    color: orange;
+    margin-right: 5px;
+    font-size: 0.8;
+}
+
+.card-text {
+    color: #333;
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+.amount {
+    color: #000;
+    font-weight: 600;
+}
+
+.card-text p {
+    margin-bottom: 10px;
+}
